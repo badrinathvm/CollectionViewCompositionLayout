@@ -18,6 +18,7 @@
 		1B6E7D7D2373A17000BDF41A /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E7D7C2373A17000BDF41A /* ListCell.swift */; };
 		1B6E7D802373B01D00BDF41A /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E7D7F2373B01D00BDF41A /* GridViewController.swift */; };
 		1B6E7D822373B31600BDF41A /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E7D812373B31600BDF41A /* TextCell.swift */; };
+		1B6E7D842373B64D00BDF41A /* OrthogonalScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E7D832373B64D00BDF41A /* OrthogonalScrollingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1B6E7D7C2373A17000BDF41A /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		1B6E7D7F2373B01D00BDF41A /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		1B6E7D812373B31600BDF41A /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		1B6E7D832373B64D00BDF41A /* OrthogonalScrollingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				1B6E7D4F23738D6900BDF41A /* ViewController.swift */,
 				1B6E7D7F2373B01D00BDF41A /* GridViewController.swift */,
+				1B6E7D832373B64D00BDF41A /* OrthogonalScrollingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				1B6E7D7D2373A17000BDF41A /* ListCell.swift in Sources */,
 				1B6E7D4C23738D6900BDF41A /* AppDelegate.swift in Sources */,
 				1B6E7D822373B31600BDF41A /* TextCell.swift in Sources */,
+				1B6E7D842373B64D00BDF41A /* OrthogonalScrollingViewController.swift in Sources */,
 				1B6E7D4E23738D6900BDF41A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

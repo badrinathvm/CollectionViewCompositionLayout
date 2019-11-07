@@ -32,11 +32,15 @@ class GridViewController: UIViewController {
 extension GridViewController {
     // items, group , section , layout
     func createLayout() -> UICollectionViewCompositionalLayout {
+        
+        //Notes:  in order to be square item width should be equal to group height
+        
+        // .fractionalWidth(0.2) - 20% of the width of the container ( so that u can see 5 components )
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2), heightDimension: .fractionalHeight(1.0))
         let items = NSCollectionLayoutItem(layoutSize: itemSize)
         items.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
         
-        //group
+        //group - Represents row
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalWidth(0.2))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [items])
         
